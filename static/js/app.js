@@ -17,7 +17,7 @@ function buildTable(data) {
             cell.text(val);    
         });
     });
-};
+}
 
 function handleClick() {
     // Create a date variable from value from the filter
@@ -27,14 +27,14 @@ function handleClick() {
     // If statement in case a date is selected
     if (date) {
         filteredData = filteredData.filter(row => row.datetime === date);
-    };
+    }
 
     // Rebuild the table using the filtered data
     buildTable(filteredData);
-};
+}
 
 // Use D3 to listen for a click event
-d3.selectAll("filter-btn").on("click", handleClick);
+d3.selectAll("#filter-btn").on("click", handleClick);
 
 // Build original table when the page loads
 buildTable(tableData);
