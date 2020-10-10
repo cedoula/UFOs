@@ -12,6 +12,9 @@ In order to perform their analysis, users will be able to filter the UFO sightin
 
 ### Search Criteria Procedure
 
+### Link to UFO Sightings webpage
+The deployed webpage is accessible at [https://cedoula.github.io/UFOs/](https://cedoula.github.io/UFOs/).
+
 #### Index page
 This is the initial page. The user can re-initialize the page by clicking on the navbar at the top.
 <p align="center">
